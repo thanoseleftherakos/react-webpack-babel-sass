@@ -7,6 +7,9 @@ module.exports = {
     output: {
         filename: './dist/main.min.js'
     },
+    devServer: {
+        historyApiFallback: true
+    },
     module: {
         loaders: [
             {
